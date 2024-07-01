@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.LibraryTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2024-07-01T07:13:45" hostname="PC" time="0.546">
+  <properties/>
+  <testcase name="AppReturnMovieGenres()" classname="org.example.LibraryTest" time="0.326"/>
+  <testcase name="moviesListIsNotEmpty()" classname="org.example.LibraryTest" time="0.217">
+    <failure message="org.opentest4j.AssertionFailedError: Exception occurred: �����: ���� ������ &quot;movies&quot; �� ����������" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Exception occurred: �����: ���� ������ &quot;movies&quot; �� ����������
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at app//org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at app//org.example.LibraryTest.moviesListIsNotEmpty(LibraryTest.java:45)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.3/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.3/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

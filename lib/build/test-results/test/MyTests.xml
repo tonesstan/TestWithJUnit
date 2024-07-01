@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-07-01T06:58:47" hostname="PC" time="5.058">
+  <properties/>
+  <testcase name="logOut()" classname="org.example.MyTests" time="0.3"/>
+  <testcase name="adminPutAndDeleteFilm()" classname="org.example.MyTests" time="2.424"/>
+  <testcase name="adminGetMovieById()" classname="org.example.MyTests" time="1.181"/>
+  <testcase name="authenticate()" classname="org.example.MyTests" time="1.149"/>
+  <system-out><![CDATA[24
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.AdminRoutesTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-07-01T07:12:16" hostname="PC" time="0.004">
+  <properties/>
+  <testcase name="initializationError" classname="org.example.AdminRoutesTest" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: Exception :�����: ���� ������ &quot;movies&quot; �� ����������" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Exception :�����: ���� ������ &quot;movies&quot; �� ����������
+	at app//org.example.AdminRoutesTest.initDBConnection(AdminRoutesTest.java:35)
+	at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.3/java.util.ArrayList.forEach(ArrayList.java:1596)
+	Suppressed: org.opentest4j.AssertionFailedError: Exception :Cannot invoke &quot;java.sql.Connection.close()&quot; because &quot;org.example.AdminRoutesTest.connection&quot; is null
+		at app//org.example.AdminRoutesTest.closeDBConnection(AdminRoutesTest.java:42)
+		at java.base@21.0.3/java.lang.reflect.Method.invoke(Method.java:580)
+		at java.base@21.0.3/java.util.ArrayList.forEach(ArrayList.java:1596)
+		at java.base@21.0.3/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116)
+		... 1 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
